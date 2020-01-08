@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+.navbar {
+    align-content: center;
+    background-color: #333333;
+    font-family: "Lilita ONe";
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.cat_title{
+    margin-left: 15%;
+}
+/*:*/
+.row {
+    display: flex;
+    margin: auto;
+    border-bottom: #e4e4e4;
+    border-style: solid;
+    border-block-width: thin;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.col-xs-auto {
+    padding: 5px;
+}
+
+.col {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+    font-size: small;
+}
+
+h5.article_title {
+    display: flex;
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+}
+
+.article_desc {
+    font-size: small;
+}
+
+.published_date {
+    font-size: x-small;
+}
+
+.my_footer {
+    width: auto;
+    background-color: #333333;
+    height: fit-content;
+    color: #e4e4e4;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.title_text {
+    margin-top: auto;
+    margin-bottom: 15%;
+}

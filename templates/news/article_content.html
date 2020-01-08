@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="main_content">
+            <h1 class="title_text">{{ content.article_title }}</h1>
+            {{ content.article_content | safe}}
+            <p>{{ content.published_date }}</p>
+        </div>
+    </div>
+{% endblock %}
